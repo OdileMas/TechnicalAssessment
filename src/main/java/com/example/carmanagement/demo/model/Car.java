@@ -1,5 +1,4 @@
 package com.example.carmanagement.demo.model;
-
 import java.util.ArrayList;
 import java.util.List;
 

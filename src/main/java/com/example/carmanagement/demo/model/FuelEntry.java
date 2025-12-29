@@ -1,5 +1,4 @@
 package com.example.carmanagement.demo.model;
-
 import java.time.LocalDateTime;
 
 public class FuelEntry {
