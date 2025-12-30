@@ -98,11 +98,11 @@ java -jar CLI/target/cli-client-1.0-SNAPSHOT.jar <command> [arguments]
 
 ---
 
-## 💡 Usage Examples
+### Usage Examples
 
 Here are the most common things you can do.
 
-### 1️⃣ Create a New Car
+### Create a New Car
 Register a car in the system.
 
 ```bash
@@ -110,7 +110,7 @@ java -jar CLI/target/cli-client-1.0-SNAPSHOT.jar create-car --brand Toyota --mod
 ```
 *Expected Output: `Car created successfully with ID: 1`*
 
-### 2️⃣ Add Fuel Entry
+###  Add Fuel Entry
 Log a refueling event for a specific car.
 
 ```bash
@@ -119,7 +119,7 @@ java -jar CLI/target/cli-client-1.0-SNAPSHOT.jar add-fuel --carId 1 --liters 40 
 ```
 *Expected Output: `Fuel entry added successfully.`*
 
-### 3️⃣ View Fuel Statistics
+### View Fuel Statistics
 See the consumption stats for a car.
 
 ```bash
@@ -129,7 +129,7 @@ java -jar CLI/target/cli-client-1.0-SNAPSHOT.jar fuel-stats --carId 1
 
 ---
 
-## 🔌 API Reference
+## API Reference
 
 If you prefer using **Postman** or `curl`, here are the available endpoints:
 
@@ -149,6 +149,3 @@ If you prefer using **Postman** or `curl`, here are the available endpoints:
 *   **"Jar not accessed/found"**: Make sure you ran `.\mvnw clean install` in the `demo` folder first. Check if the path `CLI/target/cli-client-1.0-SNAPSHOT.jar` exists.
 *   **"Port 8080 already in use"**: Another service is using port 8080. Stop that service or configure a different port in `application.properties`.
 
----
-
-Happy Coding! 🚙💨
